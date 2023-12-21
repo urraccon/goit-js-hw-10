@@ -38,6 +38,8 @@ function hideLoadingBreedsList() {
 function displayError(error) {
   errorElem.classList.remove('hidden');
   console.log('The server returned the error message: ', error);
+  breedSelector.classList.add('hiden');
+  catInfoElem.classList.add('hidden');
 }
 
 function optionRender(option) {

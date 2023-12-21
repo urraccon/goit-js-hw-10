@@ -2,7 +2,8 @@
   font-family: sans-serif;
 }
 
-.hidden {
+.hidden,
+.hiden {
   display: none;
 }
 
@@ -10,7 +11,7 @@ select {
   /* scrollbar-width: none; */
   overflow: hidden;
   font-size: 16px;
-  margin: 20px 30px;
+  margin: 40px 50px;
   /* opacity: 0.5; */
   /* scrollbar-color: black; */
   padding: 3px;
@@ -44,7 +45,7 @@ option {
 .cat-img {
   max-width: 480px;
   max-height: 480px;
-  margin: 50px;
+  margin: 40px 50px;
 }
 
 .cat-info {
@@ -61,4 +62,9 @@ option {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.loader,
+.error {
+  margin: 40px 50px;
 }
