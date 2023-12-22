@@ -11,29 +11,28 @@ select {
   /* scrollbar-width: none; */
   overflow: hidden;
   font-size: 16px;
-  margin: 40px 50px;
+  margin: 30px;
   /* opacity: 0.5; */
   /* scrollbar-color: black; */
   padding: 3px;
   /* box-shadow: none; */
-  background-color: rgba(156, 63, 255, 0.7);
+  background-color: rgba(180, 126, 222);
   color: white;
   border-radius: 5px;
   border: 1px solid rgb(0, 0, 0, 0.5);
 }
 
-select:focus {
+select:focus,
+select:hover {
   border: 1px solid rgba(0, 0, 0, 0.7);
-  background-color: rgba(156, 63, 255, 0.9);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: rgba(180, 126, 222);
+
   /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1); */
   /* border-radius: 10px; */
 }
 
 option {
-  background-color: rgba(156, 63, 255, 0.9);
+  background-color: rgba(180, 126, 222);
   color: white;
   /* opacity: 0.5; */
 }
@@ -43,9 +42,9 @@ option {
 } */
 
 .cat-img {
-  max-width: 480px;
-  max-height: 480px;
-  margin: 40px 50px;
+  max-width: 360px;
+  max-height: 360px;
+  margin: 30px;
 }
 
 .cat-info {
@@ -66,5 +65,12 @@ option {
 
 .loader,
 .error {
-  margin: 40px 50px;
+  margin: 30px;
+}
+
+select:active {
+  background-color: rgba(153, 102, 203);
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
